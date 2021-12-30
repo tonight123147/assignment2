@@ -1,0 +1,220 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Maven Pro", sans-serif;
+  text-transform: none;
+}
+*,
+* :before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 150%;
+  line-height: 1.6;
+}
+.top-mot {
+  background: black;
+  width: 100%;
+  height: 30px;
+}
+.top-mot a {
+  text-decoration: none;
+}
+.top-mot span {
+  line-height: 30px;
+}
+.top-bar ul li {
+  list-style: none;
+  /* float: left; này sẽ biến li thành div nó sẽ thành hàng ngang */
+  display: inline-block;
+  margin-right: -19px; /*này làm cho hết cái cụm bên phải lại gần*/
+}
+.top-bar ul li a {
+  padding: 0px 10px;
+  margin: 0px 2px;
+  margin-left: 20px; /*này làm cho hết cụm đó thụt vào*/
+}
+.top-bar-1 a {
+  border-left: 1px solid white;
+  padding-right: 60px;
+}
+.top-mot span {
+  color: grey;
+}
+.top-mot span:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* --header hai--- */
+.top-hai {
+  background: whitesmoke;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  margin-top: -1px;
+}
+.top-haidrop-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.top-haidrop-item ul > li > a {
+  display: inline-block;
+  padding: 0px 5px;
+  line-height: 80px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: gray;
+  margin-left: 50px;
+}
+.top-haidrop-item ul > li > a:hover {
+  color: rgba(243, 199, 3, 0.924);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  transition: 0.7s; /*này đổi màu chữ nav*/
+}
+.top-hai-item-icon ul li {
+  list-style: none;
+  float: left; /*này sẽ biến li thành div nó sẽ thành hàng ngang*/
+  display: block;
+}
+.top-hai-item-icon ul {
+  margin-left: -58px;
+}
+.top-hai-item-icon ul li a {
+  padding: 0px 10px;
+  margin: 0px 2px;
+  text-decoration: none;
+  color: gray;
+}
+.top-hai-item-icon .cart a {
+  border-left: 2px solid black;
+}
+.top-hai-item-icon > ul > li > a > i:hover {
+  color: rgba(243, 199, 3, 0.924);
+  text-decoration: none;
+}
+/* -------- */
+
+/* product */
+.product2 ul {
+  list-style-type: none;
+  padding-left: 250px;
+  display: flex;
+  width: 100%;
+  background: grey;
+  height: 59px;
+}
+.product2 ul li a {
+  display: inline-block;
+  line-height: 60px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: gray;
+  color: black;
+}
+.product2 ul li {
+  margin-left: 40px;
+}
+.product2 ul li a:hover {
+  color: rgba(233, 192, 13, 0.924);
+  transition: 0.6s;
+}
+.img-center {
+  height: 305px;
+  width: 270px;
+  margin-left: 20px;
+}
+.text-center {
+  text-align: center;
+}
+div.caption {
+  text-align: center;
+  margin-top: 25px;
+}
+.caption .btn {
+  margin: 0px 1px;
+  border-radius: 15px;
+  border: 1px solid rgb(206, 152, 4);
+  background: rgb(206, 152, 4);
+}
+.caption .btn a {
+  color: white;
+}
+.caption button:hover {
+  background: #FF4500;
+  transition: 0.6s;
+}
+.caption .btn :hover {
+  text-decoration: none;
+}
+/* ---- */
+/* footer */
+footer {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 270px;
+  position: relative;
+}
+footer .block-c-1 p {
+  color: white;
+  text-align: justify;
+  font-size: 14px;
+  margin-top: 14px;
+}
+footer .block-c-1 i {
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+}
+footer .block-c-2 {
+  color: white;
+  font-size: 14px;
+}
+footer .block-c-2 i {
+  color: white;
+  font-size: 14px;
+}
+footer .block-c-3 {
+  color: #fff;
+}
+footer .block-c-3 p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+footer .block-c-4 img {
+  width: 80px;
+  height: 70px;
+}
+footer .block-c-4 {
+  color: #a4a4a4;
+  font-size: 14px;
+}
+footer .block-c-4 .sup {
+  color: #fff;
+}
+footer .block-c-4 p {
+  margin-bottom: 0;
+}
+footer .block-c-4 .sub {
+  font-size: 13px;
+}
+footer .block-c-4 .divider {
+  width: 35px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+footer .block-c-4 h5 {
+  color: white;
+}
+div.container-fluid {
+  padding: 0px 40px;
+}
+/* -------- */
